@@ -32,7 +32,7 @@
 
 #include "defs.h"
 #include "shape.h"
-#include "shapelib/shapefil.h"
+#include <libshp/shapefil.h>
 
 
 #if SHAPELIB_ENABLED

@@ -27,8 +27,7 @@
 
 #include "defs.h"               // for arglist_t, ARGTYPE_STRING, Waypoint, route_head, CET_CHARSET_ASCII, FF_CAP_RW_ALL, ff_cap, ff_type, ff_type_file
 #include "format.h"             // for Format
-#include "shapelib/shapefil.h"  // for DBFHandle, SHPAPI_CALL, SHPHandle
-
+#include <libshp/shapefil.h>
 
 #if SHAPELIB_ENABLED
 class ShapeFormat : public Format
